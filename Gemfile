@@ -6,7 +6,7 @@ ruby '2.6.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 group :development, :test do
-  gem 'sqkite3'
+  gem 'sqlite3'
   end
   group :production do
     gem 'pg'
